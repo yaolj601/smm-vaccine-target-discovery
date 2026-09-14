@@ -1,0 +1,7 @@
+{
+  "_README": "Grades corrected against a primary source. llm_scores.json is NEVER edited - it is the record of what the model said. Corrections live here, each with a source, so every changed grade is attributable. Applied by 05b_novelty_confidence.py, which logs each override.",
+  "DKK1": {
+    "novelty_tier": "2_clinical_other",
+    "source": "ClinicalTrials.gov, checked 2026-09-13. The model graded DKK1 1b_vaccine_in_mm ('vaccine in clinical study in myeloma'). A full DKK1 query returns exactly one vaccine ever registered - NCT03591614, dendritic-cell DKK1 vaccine in MGUS/SMM - and it was WITHDRAWN with 0 enrolled ('PI left institution'). No patient has ever received a DKK1 vaccine on a registered protocol, so 1b is not supported. What DKK1 does have is an antibody programme in myeloma: BHQ880 (anti-DKK1 mAb) COMPLETED a phase 2 in smouldering myeloma, n=41 (NCT01302886), plus NCT01337752 in MM; DKN-01 ran phase 1 in MM (NCT01711671). That is tier 2_clinical_other by definition. Effect: novelty_confidence 3 -> 8, rank 28 -> 17. Top 15 unchanged."
+  }
+}

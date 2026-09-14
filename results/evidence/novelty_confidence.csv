@@ -1,0 +1,70 @@
+gene,mm_confidence,novelty_tier,novelty_confidence,rejected,existing_programs,llm_source
+ARPC5L,D,4_uncharacterised,0,True,none known,api
+C2orf76,C,4_uncharacterised,3,False,none known,api
+CADM1,B,3_literature,7,False,Plasma-cell adhesion molecule; described as a T-cell recognition target in adult T-cell leukemia; less developed in MM specifically.,in-session
+CCDC144A,C,4_uncharacterised,3,False,Poorly characterized; none.,in-session
+CCND1,A,3_literature,9,False,"none known — no CCND1-directed vaccine, CAR-T, ADC or bispecific in myeloma that I can name with confidence; CCND1 peptide/CTL work exists preclinically (mantle cell lymphoma, breast cancer) but I am not aware of a registered clinical vaccine trial, so I am not claiming tier 1a/1b",api
+CD1D,B,3_literature,7,False,"none known as a CD1D-directed peptide vaccine or CD1D-targeting agent. Note: alpha-galactosylceramide (KRN7000)-loaded dendritic cell / iNKT trials in MGUS-SMM-MM (e.g., Richter et al., Blood 2013; Chang/Dhodapkar studies) exploit CD1d as the lipid-presenting molecule, not as the targeted tumor antigen, so this does not constitute a CD1D-directed clinical program.",api
+CD200,A,2_clinical_other,8,False,Samalizumab (anti-CD200 mAb) trialed in MM; CD200-CD200R axis is an established immune-evasion checkpoint in MM; CAR/bispecific interest.,in-session
+CKS2,B,3_literature,7,False,CKS1B (paralog) is the well-known 1q21 MM amplicon driver; CKS2 less established in MM.,in-session
+CNTN5,C,4_uncharacterised,3,False,Neuronal contactin; none in MM.,in-session
+COX20,D,4_uncharacterised,0,True,none known,api
+CPQ,C,4_uncharacterised,3,False,none known,api
+DHRS9,C,4_uncharacterised,3,False,Retinaldehyde dehydrogenase in antigen-presenting cells; no MM programs.,in-session
+DKK1,A,2_clinical_other,8,False,"pUMVC3-hDKK1 DNA vaccine in smouldering myeloma (Mayo Clinic, NCT03591614); also anti-DKK1 mAb BHQ880 (Novartis) in MM phase 1b/2 trials, and DKN-01 in other solid tumours",verified
+DNAJC1,B,4_uncharacterised,6,False,none known,api
+DST,C,4_uncharacterised,3,False,none known,api
+EDNRB,B,3_literature,7,False,Endothelin-B receptor; endothelin axis in MM bone disease; ET receptor antagonists exist clinically (pulmonary hypertension).,in-session
+EID1,C,4_uncharacterised,3,False,none known,api
+FAM133A,C,4_uncharacterised,3,False,Poorly characterized; none.,in-session
+FAM162A,C,4_uncharacterised,3,False,none known,api
+FCRLA,B,3_literature,7,False,"none known for FCRLA itself; note the paralogue FCRL5/FcRH5 is clinically validated in MM (cevostamab, BFCR4350A; anti-FcRH5 ADC DFRF4539A; FcRH5 CAR-T), but that is a different gene",api
+FRZB,B,3_literature,7,False,Secreted Wnt antagonist implicated in MM bone disease; no direct therapeutic programs.,in-session
+GADD45GIP1,D,4_uncharacterised,0,True,none known,api
+HERC5,C,4_uncharacterised,3,False,none known,api
+HEY2,B,4_uncharacterised,6,False,none known,api
+HGF,A,2_clinical_other,8,False,"Rilotumumab (AMG 102), an anti-HGF neutralising monoclonal antibody, was evaluated in relapsed/refractory multiple myeloma (phase 1/2, alone and with bortezomib); HGF/MET axis also targeted by ficlatuzumab and MET TKIs in other tumours. No HGF peptide vaccine in MM.",api
+HIGD2A,C,4_uncharacterised,3,False,Mitochondrial; none.,in-session
+IFI27,C,4_uncharacterised,3,False,Interferon-stimulated gene; no therapeutic programs.,in-session
+IFI6,C,4_uncharacterised,3,False,None known.,in-session
+IFITM1,B,3_literature,7,False,none known,api
+IGF1,A,3_literature,9,False,"none known for IGF1 itself as a vaccine target; the axis has been drugged in MM via the receptor (anti-IGF-1R antibodies AVE1642 and figitumumab/CP-751,871 in phase I myeloma studies) and the ligand neutralised in solid tumours (xentuzumab/BI 836845), but no IGF1-directed vaccine or MM ligand-targeted program exists",api
+KIAA1524,C,4_uncharacterised,3,False,none known,in-session
+KIT,A,3_literature,9,False,"none known as an antigen-directed agent in myeloma; KIT is targeted pharmacologically by TKIs (imatinib/dasatinib, tested in MM without antigen-specific rationale) and anti-CD117 antibodies (e.g. briquilimab/JSP191) and CD117 CAR-T are in development for AML/HSC conditioning, not myeloma",api
+LAMP5,C,4_uncharacterised,3,False,Hematopoietic lysosomal protein; no MM-specific programs known.,in-session
+LENG1,C,4_uncharacterised,3,False,none known,api
+LSAMP,C,4_uncharacterised,3,False,Neuronal adhesion; deletions in some cancers.,in-session
+MCC,C,4_uncharacterised,3,False,none known,api
+MFAP3L,C,4_uncharacterised,3,False,none known,api
+MLLT3,B,4_uncharacterised,6,False,none known,api
+MX1,C,3_literature,4,False,"none known - no vaccine, CAR, antibody or ADC program against MX1 in myeloma or any other indication that I am aware of; MX1 appears in myeloma literature only as a component of type I interferon-response gene signatures, not as a therapeutic target",api
+MYEOV,A,3_literature,9,False,none known,api
+NCAM1,A,2_clinical_other,8,False,CD56 is a classic MM surface marker (esp. t(11;14)); lorvotuzumab mertansine (anti-NCAM1 ADC) trialed in MM; CAR-NK/CAR-T programs exist.,in-session
+NEB,C,4_uncharacterised,3,False,Giant muscle structural protein; none relevant.,in-session
+NLGN4X,B,4_uncharacterised,6,False,none known,api
+NOL4,C,4_uncharacterised,3,False,Nucleolar protein; none.,in-session
+P2RX1,C,4_uncharacterised,3,False,none known,api
+POU2F2,B,3_literature,7,False,none known,api
+PRR15,C,4_uncharacterised,3,False,none known,api
+PTTG1,C,4_uncharacterised,3,False,none known,in-session
+RBMS1,B,4_uncharacterised,6,False,none known,api
+RP11-219A15.1,C,4_uncharacterised,3,False,none known,in-session
+RPL36A,D,4_uncharacterised,0,True,none known,api
+SCYL2,D,4_uncharacterised,0,True,none known,api
+SLC1A5,B,3_literature,7,False,Glutamine transporter; CAR-T target in AML; metabolic therapy interest.,in-session
+SMIM4,C,4_uncharacterised,3,False,Poorly characterized; none.,in-session
+SPATS2L,C,4_uncharacterised,3,False,none known,in-session
+SPN,B,3_literature,7,False,"none known in myeloma; anti-CD43 antibody AT1413 has been explored in AML (not myeloma, not a vaccine), and CD43 CAR constructs remain preclinical",api
+ST3GAL6,B,3_literature,7,False,Plasma-cell sialyltransferase; ST3GAL6-MMP1 axis described in MM cell migration; no therapeutic programs.,in-session
+STARD5,C,4_uncharacterised,3,False,none known,api
+STOM,C,4_uncharacterised,3,False,Erythrocyte/lineage protein; none.,in-session
+SYT1,C,4_uncharacterised,3,False,Synaptic vesicle protein; none.,in-session
+TBXAS1,C,4_uncharacterised,3,False,none known,api
+THG1L,D,4_uncharacterised,0,True,none known,in-session
+TJP1,B,3_literature,7,False,none known,api
+TMEM173,C,3_literature,4,False,"STING agonists have been evaluated in cancer immunotherapy including myeloma models, but as adjuvants that engage the pathway, not as antigens",in-session
+TMEM52B,C,4_uncharacterised,3,False,Poorly characterized; none.,in-session
+TNFSF10,C,3_literature,4,False,TRAIL receptor agonists trialed in cancer.,in-session
+TNS3,C,4_uncharacterised,3,False,none known,api
+TUBB,D,4_uncharacterised,0,True,none known,api
+TXN,D,3_literature,0,True,Thioredoxin inhibitors explored in cancer.,in-session

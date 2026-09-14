@@ -1,0 +1,18 @@
+# Large regenerable inputs and intermediates - `pipeline/00_fetch_data.py`
+# re-downloads the inputs and the pipeline rebuilds the rest.
+data/*
+# Inputs to step 5b that the pipeline CANNOT regenerate on a clean clone:
+# llm_scores.json costs API calls to reproduce and is the evidence trail of
+# what the model actually returned; verified_overrides.json is hand-authored
+# from primary sources and is not reproducible at all. Without these, a fresh
+# clone silently falls back to the in-session grades and loses the verified
+# DKK1 correction - the exact silent-degradation failure this project has
+# already hit twice.
+!data/llm_scores.json
+!data/llm_scores_insession.json
+!data/verified_overrides.json
+reference/*
+.venv/
+__pycache__/
+*.pyc
+.DS_Store

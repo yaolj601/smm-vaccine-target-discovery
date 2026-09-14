@@ -1,0 +1,478 @@
+{
+  "DKK1": {
+    "existing_programs": "Anti-DKK1 monoclonal antibodies (e.g. BHQ880/domesumab) trialed in myeloma bone disease; DKK1 peptide vaccine explored in precursor conditions at Dana-Farber; canonical Wnt/bone-disease axis in MM.",
+    "safety_concerns": "Low normal-tissue expression (tissue enhanced); secreted; Wnt antagonism role in bone - watch bone homeostasis effects.",
+    "rationale": "Canonical MM bone-disease driver, secreted, low normal expression, existing antibody and vaccine programs validate immunogenicity and feasibility.",
+    "novelty_tier": "1b_vaccine_in_mm",
+    "mm_confidence": "A"
+  },
+  "CD200": {
+    "existing_programs": "Samalizumab (anti-CD200 mAb) trialed in MM; CD200-CD200R axis is an established immune-evasion checkpoint in MM; CAR/bispecific interest.",
+    "safety_concerns": "Expressed on macrophages/endothelium and some normal hematopoietic cells; immune-modulatory target so watch myelosuppression.",
+    "rationale": "Surface immune-evasion molecule up in neoplastic plasma cells (also significant in the paired within-patient contrast); existing clinical antibody program validates the target.",
+    "novelty_tier": "2_clinical_other",
+    "mm_confidence": "A"
+  },
+  "HGF": {
+    "existing_programs": "HGF/MET axis implicated in MM growth and bone disease; anti-HGF (rilotumumab) and MET inhibitors developed in other cancers.",
+    "safety_concerns": "Plasma protein from liver; liver regeneration and wound healing roles; tissue-enriched so moderate risk.",
+    "rationale": "Secreted growth factor strongly up in SMM neoplastic cells with high patient prevalence; druggable axis with existing clinical antibodies.",
+    "novelty_tier": "3_literature",
+    "mm_confidence": "A"
+  },
+  "NCAM1": {
+    "existing_programs": "CD56 is a classic MM surface marker (esp. t(11;14)); lorvotuzumab mertansine (anti-NCAM1 ADC) trialed in MM; CAR-NK/CAR-T programs exist.",
+    "safety_concerns": "Broad neural expression (brain, peripheral neurons) - T-cell targeting risks neurological autoimmunity; antibody-based approaches safer.",
+    "rationale": "Well-validated MM surface antigen with prior clinical programs, but neural expression is a real safety caveat for a T-cell vaccine.",
+    "novelty_tier": "2_clinical_other",
+    "mm_confidence": "A"
+  },
+  "CADM1": {
+    "existing_programs": "Plasma-cell adhesion molecule; described as a T-cell recognition target in adult T-cell leukemia; less developed in MM specifically.",
+    "safety_concerns": "Tissue enhanced with testis/brain expression; surface protein on normal plasma cells at 11%.",
+    "rationale": "Surface adhesion molecule with the highest neoplastic-cell fraction in the shortlist (38% vs 11% normal) and paired-contrast support.",
+    "novelty_tier": "3_literature",
+    "mm_confidence": "B"
+  },
+  "FCRLA": {
+    "existing_programs": "Fc receptor-like family restricted to B/plasma cell lineage; no major therapeutic programs; limited immunogenicity data.",
+    "safety_concerns": "Lymphoid-restricted (good), but 16% of normal plasma cells express it - some on-target/off-tumor risk to normal PC.",
+    "rationale": "Lineage-restricted with the highest neoplastic expression fraction (43%) and strong prevalence; specificity to plasma cells rather than tumor mutation is the main limitation.",
+    "novelty_tier": "3_literature",
+    "mm_confidence": "B"
+  },
+  "CCND1": {
+    "existing_programs": "Cyclin D1-IGH translocation defines t(11;14) MM; central MM biology (all MM dysregulate one cyclin D); peptide/RTL vaccines explored preclinically.",
+    "safety_concerns": "Cell-cycle essential (DepMap caution); expressed in proliferating normal tissues; tolerance likely strong.",
+    "rationale": "Strongest DE signal in the dataset (log2FC 8.7, 85% of patients) and canonical MM oncogene, but broad proliferation-linked expression caps the safety score.",
+    "novelty_tier": "3_literature",
+    "mm_confidence": "A"
+  },
+  "MYEOV": {
+    "existing_programs": "Overexpressed at 11q13 alongside CCND1 in MM; proposed oncogene in myeloma; no therapeutic programs.",
+    "safety_concerns": "Poorly characterized protein; tissue enhanced; low normal-PC expression (5%).",
+    "rationale": "MM-associated gene with high prevalence and good specificity, but weak functional/literature characterization limits confidence.",
+    "novelty_tier": "3_literature",
+    "mm_confidence": "A"
+  },
+  "CD1D": {
+    "existing_programs": "CD1d/lipid-antigen and NKT-activation approaches (alpha-GalCer) explored in MM; CD1d on MM cells described.",
+    "safety_concerns": "Group enriched (immune tissues); presents lipids rather than being a classic peptide target.",
+    "rationale": "Immunologically interesting antigen-presenting molecule up in neoplastic PCs, but its lipid-presentation biology does not map cleanly onto peptide/HLA-I vaccination.",
+    "novelty_tier": "3_literature",
+    "mm_confidence": "B"
+  },
+  "FRZB": {
+    "existing_programs": "Secreted Wnt antagonist implicated in MM bone disease; no direct therapeutic programs.",
+    "safety_concerns": "Group enriched; secreted; bone/joint biology.",
+    "rationale": "Secreted Wnt-axis protein with decent prevalence; moderate evidence base in MM bone biology.",
+    "novelty_tier": "3_literature",
+    "mm_confidence": "B"
+  },
+  "ST3GAL6": {
+    "existing_programs": "Plasma-cell sialyltransferase; ST3GAL6-MMP1 axis described in MM cell migration; no therapeutic programs.",
+    "safety_concerns": "Golgi enzyme; tissue enhanced; 8% normal PC expression.",
+    "rationale": "MM-relevant enzyme with good HLA coverage (24/27 alleles) and prevalence, but intracellular/Golgi and modest fold-change.",
+    "novelty_tier": "3_literature",
+    "mm_confidence": "B"
+  },
+  "LAMP5": {
+    "existing_programs": "Hematopoietic lysosomal protein; no MM-specific programs known.",
+    "safety_concerns": "Tissue enriched (immune); platelet/leukocyte expression possible.",
+    "rationale": "Decent DE and prevalence with lymphoid restriction, but thin literature support.",
+    "novelty_tier": "4_uncharacterised",
+    "mm_confidence": "C"
+  },
+  "DHRS9": {
+    "existing_programs": "Retinaldehyde dehydrogenase in antigen-presenting cells; no MM programs.",
+    "safety_concerns": "Tissue enhanced (retina, prostate, gut); retinal expression warrants caution.",
+    "rationale": "Moderate DE signal; retinal tissue expression is a safety flag for T-cell targeting.",
+    "novelty_tier": "4_uncharacterised",
+    "mm_confidence": "C"
+  },
+  "MLLT3": {
+    "existing_programs": "KMT2A fusion partner in leukemia; hematopoietic gene; no MM programs.",
+    "safety_concerns": "Broad hematopoietic expression; low tissue specificity.",
+    "rationale": "Consistent DE across contrasts and high prevalence, but broad expression and housekeeping-adjacent function.",
+    "novelty_tier": "4_uncharacterised",
+    "mm_confidence": "C"
+  },
+  "CKS2": {
+    "existing_programs": "CKS1B (paralog) is the well-known 1q21 MM amplicon driver; CKS2 less established in MM.",
+    "safety_concerns": "Cell-cycle protein; mild DepMap signal.",
+    "rationale": "Cell-cycle gene with SMM DE support; the MM literature centers on CKS1B rather than CKS2.",
+    "novelty_tier": "3_literature",
+    "mm_confidence": "B"
+  },
+  "POU2F2": {
+    "existing_programs": "B-cell transcription factor; no MM therapeutic programs.",
+    "safety_concerns": "B-cell lineage expression; normal PCs 23%.",
+    "rationale": "Lineage TF with modest DE; specificity to B cells limits safety margin.",
+    "novelty_tier": "3_literature",
+    "mm_confidence": "B"
+  },
+  "EDNRB": {
+    "existing_programs": "Endothelin-B receptor; endothelin axis in MM bone disease; ET receptor antagonists exist clinically (pulmonary hypertension).",
+    "safety_concerns": "Vascular/endothelial expression; surface receptor on normal vasculature.",
+    "rationale": "Surface receptor up in neoplastic PCs with good HLA coverage, but endothelial expression is a safety concern.",
+    "novelty_tier": "3_literature",
+    "mm_confidence": "B"
+  },
+  "IFI27": {
+    "existing_programs": "Interferon-stimulated gene; no therapeutic programs.",
+    "safety_concerns": "Induced by IFN in virtually all cells during infection/inflammation - autoimmune risk.",
+    "rationale": "Interferon-signature gene; expression is inflammation-driven rather than tumor-specific.",
+    "novelty_tier": "4_uncharacterised",
+    "mm_confidence": "C"
+  },
+  "IFITM1": {
+    "existing_programs": "IFITM family; some cancer immunotherapy interest; no MM programs.",
+    "safety_concerns": "IFN-inducible broadly; surface membrane protein.",
+    "rationale": "Interferon signature; moderate specificity in this dataset but inflammation-driven expression elsewhere.",
+    "novelty_tier": "4_uncharacterised",
+    "mm_confidence": "C"
+  },
+  "MX1": {
+    "existing_programs": "Interferon marker; none therapeutic.",
+    "safety_concerns": "IFN-inducible in all cells.",
+    "rationale": "Interferon-signature gene; weak tumor specificity.",
+    "novelty_tier": "4_uncharacterised",
+    "mm_confidence": "C"
+  },
+  "IFI6": {
+    "existing_programs": "None known.",
+    "safety_concerns": "IFN-inducible broadly.",
+    "rationale": "Interferon-signature gene.",
+    "novelty_tier": "4_uncharacterised",
+    "mm_confidence": "C"
+  },
+  "SPN": {
+    "existing_programs": "CD43 is a pan-leukocyte marker; some CAR interest in AML.",
+    "safety_concerns": "All leukocytes express CD43 - poor safety margin.",
+    "rationale": "Pan-leukocyte surface protein; too broad for a T-cell vaccine.",
+    "novelty_tier": "3_literature",
+    "mm_confidence": "C"
+  },
+  "TNFSF10": {
+    "existing_programs": "TRAIL receptor agonists trialed in cancer.",
+    "safety_concerns": "Expressed by immune cells broadly.",
+    "rationale": "Immune-effector ligand; broad expression.",
+    "novelty_tier": "3_literature",
+    "mm_confidence": "C"
+  },
+  "SLC1A5": {
+    "existing_programs": "Glutamine transporter; CAR-T target in AML; metabolic therapy interest.",
+    "safety_concerns": "Broad metabolic expression (brain, muscle); not DE in SMM here (log2FC 0.2).",
+    "rationale": "Surface metabolic target with existing programs, but essentially not differentially expressed in SMM in this dataset.",
+    "novelty_tier": "3_literature",
+    "mm_confidence": "B"
+  },
+  "NEB": {
+    "existing_programs": "Giant muscle structural protein; none relevant.",
+    "safety_concerns": "Cardiac/skeletal muscle expression - serious safety risk; epitope count is a length artifact (8525 aa).",
+    "rationale": "Enormous protein generates many binders trivially; muscle expression and no MM biology make it unattractive.",
+    "novelty_tier": "4_uncharacterised",
+    "mm_confidence": "C"
+  },
+  "TUBB": {
+    "existing_programs": "Housekeeping cytoskeletal gene.",
+    "safety_concerns": "Essential, ubiquitous.",
+    "rationale": "Housekeeping gene; fails specificity and essentiality checks.",
+    "novelty_tier": "4_uncharacterised",
+    "mm_confidence": "D"
+  },
+  "TXN": {
+    "existing_programs": "Thioredoxin inhibitors explored in cancer.",
+    "safety_concerns": "Essential redox housekeeping protein.",
+    "rationale": "Housekeeping gene; fails specificity and essentiality checks.",
+    "novelty_tier": "3_literature",
+    "mm_confidence": "D"
+  },
+  "COX20": {
+    "existing_programs": "Mitochondrial assembly factor; none.",
+    "safety_concerns": "Essential mitochondrial protein.",
+    "rationale": "Essential housekeeping; fails safety.",
+    "novelty_tier": "4_uncharacterised",
+    "mm_confidence": "D"
+  },
+  "CNTN5": {
+    "existing_programs": "Neuronal contactin; none in MM.",
+    "safety_concerns": "Neural tissue expression - neurological autoimmunity risk.",
+    "rationale": "Large neural adhesion protein; many binders reflect length; neural safety risk.",
+    "novelty_tier": "4_uncharacterised",
+    "mm_confidence": "C"
+  },
+  "SYT1": {
+    "existing_programs": "Synaptic vesicle protein; none.",
+    "safety_concerns": "Neuronal expression - neurological risk.",
+    "rationale": "Neuronal protein; poor safety for T-cell targeting.",
+    "novelty_tier": "4_uncharacterised",
+    "mm_confidence": "C"
+  },
+  "LSAMP": {
+    "existing_programs": "Neuronal adhesion; deletions in some cancers.",
+    "safety_concerns": "Neural expression.",
+    "rationale": "Neural adhesion molecule; safety risk.",
+    "novelty_tier": "4_uncharacterised",
+    "mm_confidence": "C"
+  },
+  "SCYL2": {
+    "existing_programs": "Kinase, poorly characterized; none.",
+    "safety_concerns": "Low tissue specificity.",
+    "rationale": "Broadly expressed kinase; weak specificity.",
+    "novelty_tier": "4_uncharacterised",
+    "mm_confidence": "C"
+  },
+  "CCDC144A": {
+    "existing_programs": "Poorly characterized; none.",
+    "safety_concerns": "Tissue enhanced but unknown function.",
+    "rationale": "Poorly characterized; epitope count reflects 1427 aa length.",
+    "novelty_tier": "4_uncharacterised",
+    "mm_confidence": "C"
+  },
+  "STOM": {
+    "existing_programs": "Erythrocyte/lineage protein; none.",
+    "safety_concerns": "Broad lineage expression.",
+    "rationale": "Broadly expressed membrane protein.",
+    "novelty_tier": "4_uncharacterised",
+    "mm_confidence": "C"
+  },
+  "SMIM4": {
+    "existing_programs": "Poorly characterized; none.",
+    "safety_concerns": "Unknown function.",
+    "rationale": "Poorly characterized small protein.",
+    "novelty_tier": "4_uncharacterised",
+    "mm_confidence": "C"
+  },
+  "ARPC5L": {
+    "existing_programs": "Actin cytoskeleton; none.",
+    "safety_concerns": "Broad expression.",
+    "rationale": "Housekeeping-adjacent cytoskeletal gene.",
+    "novelty_tier": "4_uncharacterised",
+    "mm_confidence": "D"
+  },
+  "FAM162A": {
+    "existing_programs": "Mitochondrial; none.",
+    "safety_concerns": "Broad expression, erythroid.",
+    "rationale": "Mitochondrial metabolic gene; weak specificity.",
+    "novelty_tier": "4_uncharacterised",
+    "mm_confidence": "C"
+  },
+  "DNAJC1": {
+    "existing_programs": "Chaperone; none.",
+    "safety_concerns": "Broad expression.",
+    "rationale": "Chaperone with weak specificity.",
+    "novelty_tier": "4_uncharacterised",
+    "mm_confidence": "D"
+  },
+  "HIGD2A": {
+    "existing_programs": "Mitochondrial; none.",
+    "safety_concerns": "Broad expression.",
+    "rationale": "Mitochondrial gene; weak specificity.",
+    "novelty_tier": "4_uncharacterised",
+    "mm_confidence": "C"
+  },
+  "FAM133A": {
+    "existing_programs": "Poorly characterized; none.",
+    "safety_concerns": "Tissue enhanced; unknown function.",
+    "rationale": "Poorly characterized; strong DE but no literature support.",
+    "novelty_tier": "4_uncharacterised",
+    "mm_confidence": "C"
+  },
+  "PRR15": {
+    "existing_programs": "Poorly characterized; none.",
+    "safety_concerns": "Unknown function.",
+    "rationale": "Poorly characterized; strong DE but few HLA binders (6/27 alleles).",
+    "novelty_tier": "4_uncharacterised",
+    "mm_confidence": "C"
+  },
+  "NOL4": {
+    "existing_programs": "Nucleolar protein; none.",
+    "safety_concerns": "Group enriched; unknown function.",
+    "rationale": "Strong DE and good HLA coverage but no literature support.",
+    "novelty_tier": "4_uncharacterised",
+    "mm_confidence": "C"
+  },
+  "TMEM52B": {
+    "existing_programs": "Poorly characterized; none.",
+    "safety_concerns": "Unknown function.",
+    "rationale": "Poorly characterized; moderate DE.",
+    "novelty_tier": "4_uncharacterised",
+    "mm_confidence": "C"
+  },
+  "TBXAS1": {
+    "novelty_tier": "3_literature",
+    "existing_programs": "none known",
+    "safety_concerns": "Broadly expressed across myeloid lineage; lymphoid-restricted at tissue level but not tumour-restricted.",
+    "rationale": "Thromboxane A synthase; myeloid/platelet enzyme. Prostanoid signalling described in marrow microenvironment, but no myeloma-directed program.",
+    "mm_confidence": "C"
+  },
+  "HERC5": {
+    "novelty_tier": "4_uncharacterised",
+    "existing_programs": "none known",
+    "safety_concerns": "IFN-inducible in most cell types during infection or inflammation - the same autoimmune concern as IFI6/MX1.",
+    "rationale": "ISG15 E3 ligase, interferon-induced. Not previously described as a myeloma marker; the interferon-inducible class is a recurring false positive in this dataset.",
+    "mm_confidence": "C"
+  },
+  "CPQ": {
+    "novelty_tier": "4_uncharacterised",
+    "existing_programs": "none known",
+    "safety_concerns": "HPA protein staining is highest in kidney and liver, which contradicts the RNA tier and would disqualify it.",
+    "rationale": "Carboxypeptidase Q; lysosomal/secreted peptidase. No myeloma literature.",
+    "mm_confidence": "C"
+  },
+  "HEY2": {
+    "novelty_tier": "4_uncharacterised",
+    "existing_programs": "none known",
+    "safety_concerns": "Vascular and cardiac developmental role; blood-vessel outlier at RNA level.",
+    "rationale": "Notch effector transcription factor. Notch signalling has myeloma-microenvironment literature, but HEY2 itself is not an established marker.",
+    "mm_confidence": "C"
+  },
+  "IGF1": {
+    "novelty_tier": "3_literature",
+    "existing_programs": "IGF1R-directed antibodies (figitumumab, AVE1642) have been evaluated clinically in myeloma - the receptor, not the ligand.",
+    "safety_concerns": "Broadly expressed, low tissue specificity; systemic endocrine role makes it a poor vaccine antigen despite strong pathway literature.",
+    "rationale": "IGF1/IGF1R signalling is one of the better-characterised survival pathways in myeloma. Note the clinical agents target the receptor; IGF1 itself is the ligand.",
+    "mm_confidence": "A"
+  },
+  "DST": {
+    "novelty_tier": "4_uncharacterised",
+    "existing_programs": "none known",
+    "safety_concerns": "Broad expression; neural and muscle isoforms.",
+    "rationale": "Dystonin, a giant cytoskeletal linker. No myeloma literature; large protein, so epitope counts need length correction.",
+    "mm_confidence": "C"
+  },
+  "RBMS1": {
+    "novelty_tier": "4_uncharacterised",
+    "existing_programs": "none known",
+    "safety_concerns": "Broad expression.",
+    "rationale": "Single-stranded DNA/RNA binding protein. No myeloma-specific literature.",
+    "mm_confidence": "C"
+  },
+  "EID1": {
+    "novelty_tier": "4_uncharacterised",
+    "existing_programs": "none known",
+    "safety_concerns": "Ubiquitous.",
+    "rationale": "EP300-interacting inhibitor of differentiation. Housekeeping-adjacent; no myeloma literature.",
+    "mm_confidence": "C"
+  },
+  "LENG1": {
+    "novelty_tier": "4_uncharacterised",
+    "existing_programs": "none known",
+    "safety_concerns": "Unknown function.",
+    "rationale": "Leukocyte receptor cluster member; essentially uncharacterised.",
+    "mm_confidence": "C"
+  },
+  "MCC": {
+    "novelty_tier": "4_uncharacterised",
+    "existing_programs": "none known",
+    "safety_concerns": "Broad expression.",
+    "rationale": "'Mutated in colorectal cancer' - Wnt-pathway associated, but no myeloma literature.",
+    "mm_confidence": "C"
+  },
+  "MFAP3L": {
+    "novelty_tier": "4_uncharacterised",
+    "existing_programs": "none known",
+    "safety_concerns": "Unknown function.",
+    "rationale": "Microfibril-associated protein 3-like; uncharacterised in haematological malignancy.",
+    "mm_confidence": "C"
+  },
+  "SPATS2L": {
+    "novelty_tier": "4_uncharacterised",
+    "existing_programs": "none known",
+    "safety_concerns": "Unknown function.",
+    "rationale": "Spermatogenesis-associated, serine-rich 2-like. No myeloma literature.",
+    "mm_confidence": "C"
+  },
+  "C2orf76": {
+    "novelty_tier": "4_uncharacterised",
+    "existing_programs": "none known",
+    "safety_concerns": "Unknown function.",
+    "rationale": "Uncharacterised open reading frame.",
+    "mm_confidence": "C"
+  },
+  "GADD45GIP1": {
+    "novelty_tier": "4_uncharacterised",
+    "existing_programs": "none known",
+    "safety_concerns": "Ubiquitous.",
+    "rationale": "GADD45G-interacting protein / mitochondrial ribosomal associated. Housekeeping-adjacent.",
+    "mm_confidence": "D"
+  },
+  "RPL36A": {
+    "novelty_tier": "4_uncharacterised",
+    "existing_programs": "none known",
+    "safety_concerns": "Essential, ubiquitous.",
+    "rationale": "Ribosomal protein. This is the housekeeping class the specificity term exists to suppress.",
+    "mm_confidence": "D"
+  },
+  "TNS3": {
+    "novelty_tier": "4_uncharacterised",
+    "existing_programs": "none known",
+    "safety_concerns": "Broad expression.",
+    "rationale": "Tensin 3, focal adhesion protein. No myeloma literature.",
+    "mm_confidence": "C"
+  },
+  "KIAA1524": {
+    "mm_confidence": "C",
+    "novelty_tier": "4_uncharacterised",
+    "existing_programs": "none known",
+    "safety_concerns": "Broad expression; proliferation-associated.",
+    "rationale": "CIP2A, an inhibitor of PP2A. Oncogenic in several solid tumours, but not established as a myeloma marker."
+  },
+  "PTTG1": {
+    "mm_confidence": "C",
+    "novelty_tier": "4_uncharacterised",
+    "existing_programs": "none known",
+    "safety_concerns": "Expressed in any proliferating tissue - testis and bone marrow outliers.",
+    "rationale": "Securin; regulates sister-chromatid separation. A generic proliferation marker across cancers rather than a myeloma-specific antigen."
+  },
+  "STARD5": {
+    "mm_confidence": "C",
+    "novelty_tier": "4_uncharacterised",
+    "existing_programs": "none known",
+    "safety_concerns": "Unknown function in this context.",
+    "rationale": "StAR-related lipid transfer protein. No myeloma literature."
+  },
+  "THG1L": {
+    "mm_confidence": "D",
+    "novelty_tier": "4_uncharacterised",
+    "existing_programs": "none known",
+    "safety_concerns": "Essential, ubiquitous.",
+    "rationale": "tRNA-histidine guanylyltransferase; core tRNA-processing machinery. This is the housekeeping class the confidence-D gate exists to remove."
+  },
+  "KIT": {
+    "mm_confidence": "A",
+    "novelty_tier": "3_literature",
+    "existing_programs": "none as an antigen; imatinib and other KIT kinase inhibitors have been evaluated in myeloma, but targeting the kinase rather than the surface antigen",
+    "safety_concerns": "Expressed on haematopoietic stem/progenitor cells, mast cells and interstitial cells of Cajal - on-target damage to HSCs is the major concern.",
+    "rationale": "CD117/KIT is an established myeloma plasma-cell marker used routinely in diagnostic flow cytometry, expressed on a substantial subset of cases. Genuine myeloma biology, though no antigen-directed program."
+  },
+  "TMEM173": {
+    "mm_confidence": "C",
+    "novelty_tier": "3_literature",
+    "existing_programs": "STING agonists have been evaluated in cancer immunotherapy including myeloma models, but as adjuvants that engage the pathway, not as antigens",
+    "safety_concerns": "Ubiquitous innate-immune expression; breaking tolerance to STING would impair antiviral immunity.",
+    "rationale": "STING is an innate-immune adaptor. Its myeloma literature concerns pathway agonism to boost immunity, which is a different use from being a vaccine antigen."
+  },
+  "TJP1": {
+    "mm_confidence": "B",
+    "novelty_tier": "3_literature",
+    "existing_programs": "none known",
+    "safety_concerns": "Broad epithelial expression at tight junctions.",
+    "rationale": "ZO-1 tight-junction protein. TJP1 expression has been reported to predict proteasome-inhibitor sensitivity in myeloma, so there is genuine disease-related literature, though not as a target."
+  },
+  "P2RX1": {
+    "mm_confidence": "C",
+    "novelty_tier": "4_uncharacterised",
+    "existing_programs": "none known",
+    "safety_concerns": "Platelet and smooth-muscle expression - bleeding risk if targeted.",
+    "rationale": "Purinergic P2X1 receptor; platelet and immune-cell expression. Not described as a myeloma marker."
+  },
+  "RP11-219A15.1": {
+    "mm_confidence": "C",
+    "novelty_tier": "4_uncharacterised",
+    "existing_programs": "none known",
+    "safety_concerns": "Unknown.",
+    "rationale": "Uncharacterised lncRNA locus; no protein product, so it cannot be a peptide-vaccine target."
+  }
+}

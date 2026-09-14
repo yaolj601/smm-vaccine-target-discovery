@@ -1,0 +1,32 @@
+# Python >= 3.10 (scanpy and pandas 2.1+ both require it)
+#
+# These are lower bounds, not a verified lockfile. The only version recovered
+# from the original run is matplotlib 3.11.2 (recorded in the figure SVG
+# metadata); re-run `pip freeze > requirements.lock.txt` after a clean install
+# if you need exact reproducibility.
+
+# core data / single-cell
+pandas>=2.1
+numpy>=1.24
+scanpy>=1.10
+anndata>=0.10
+h5py>=3.10
+
+# differential expression (step 2)
+pydeseq2>=0.4
+scipy>=1.11
+
+# epitope prediction (step 4)
+# mhcflurry (>=2.2 uses a torch backend, not tensorflow); after install run:
+#   mhcflurry-downloads fetch models_class1_pan models_class1_presentation
+mhcflurry>=2.1
+
+# LLM scoring (step 5)
+anthropic>=0.40
+
+# figures (step 6)
+matplotlib>=3.8
+seaborn>=0.13
+
+# slide deck (step 7)
+python-pptx>=1.0

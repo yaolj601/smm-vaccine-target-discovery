@@ -1,0 +1,61 @@
+gene,hpa_uniprot_id,hpa_subcellular,hpa_protein_class,hpa_secretome,tissue_tier,hpa_outlier_tissues,hpa_lymphoid_fdr,hpa_safety_score,localisation,surface_or_secreted
+RP5-887A10.1,,,,,no_hpa,,,0.3,unknown,False
+CCND1,P24385,Nucleoplasm,"Cancer-related genes, Disease related genes, FDA approved drug targets, Human disease related genes, Predicted intracellular proteins, Transporters",,2_restricted,skin,,0.6,intracellular,False
+FCRLA,Q7L513,,Predicted intracellular proteins,Intracellular and membrane,1a_lymphoid,"lymph node, tonsil",9.453028262367841e-09,1.0,intracellular,False
+MLLT3,P42568,Nucleoplasm,"Cancer-related genes, Disease related genes, Predicted intracellular proteins",,1a_lymphoid,"bone marrow, rectum",0.0102836626980351,1.0,intracellular,False
+MYEOV,Q96EZ4,Nucleoplasm,Predicted membrane proteins,,2_restricted,esophagus,,0.6,membrane,True
+PRR15,Q8IV56,Vesicles,Predicted intracellular proteins,,2_restricted,"colon, small intestine",,0.6,intracellular,False
+HGF,P14210,,"Cancer-related genes, Candidate cardiovascular disease genes, Disease related genes, Enzymes, Human disease related genes, Plasma proteins, Potential drug targets, Predicted secreted proteins, RAS pathway related proteins",Secreted to blood,2_restricted,placenta,,0.6,secreted,True
+DST,Q03001,"Nucleoplasm, Microtubules","Cancer-related genes, Disease related genes, Human disease related genes, Plasma proteins, Predicted intracellular proteins",,4_broad,,,0.2,intracellular,False
+SCYL2,Q6P3W7,,"Disease related genes, Enzymes, Human disease related genes, Potential drug targets, Predicted intracellular proteins",,4_broad,,,0.2,intracellular,False
+LINC01480,,,,,no_hpa,,,0.3,unknown,False
+DNAJC1,Q96KC8,Endoplasmic reticulum,"Predicted membrane proteins, Transcription factors",,2_restricted,parathyroid gland,,0.6,membrane,True
+SNHG25,,,,,no_hpa,,,0.3,unknown,False
+SNHG8,,,,,no_hpa,,,0.3,unknown,False
+RBMS1,P29558,Cytosol,Predicted intracellular proteins,,2_restricted,placenta,,0.6,intracellular,False
+TUBB,P07437,Microtubules,"Disease related genes, Essential proteins, FDA approved drug targets, Human disease related genes, Plasma proteins, Predicted intracellular proteins",,1a_lymphoid,thymus,0.0078679721181009,1.0,intracellular,False
+POU2F2,P09086,"Nucleoplasm, Vesicles","Cancer-related genes, Predicted intracellular proteins, Transcription factors",,1a_lymphoid,"lymph node, tonsil",4.9131671802658555e-05,1.0,intracellular,False
+DKK1,O94907,,Predicted secreted proteins,Secreted in other tissues,2_restricted,"cervix, placenta",,0.6,secreted,True
+IGF1,P05019,,"Disease related genes, Human disease related genes, Plasma proteins, Predicted secreted proteins, RAS pathway related proteins",Secreted to blood,2_restricted,"adipose tissue, cervix",,0.6,secreted,True
+AC074289.1,,,,,no_hpa,,,0.3,unknown,False
+TBXAS1,P24557,"Endoplasmic reticulum, Cytosol","Disease related genes, Enzymes, Human disease related genes, Metabolic proteins, Plasma proteins, Predicted intracellular proteins, Predicted membrane proteins",,1a_lymphoid,spleen,1.55877209751912e-08,1.0,membrane,True
+RP5-1171I10.5,,,,,no_hpa,,,0.3,unknown,False
+P2RX1,P51575,Endoplasmic reticulum,Predicted membrane proteins,,2_restricted,blood vessel,,0.6,membrane,True
+FAM162A,Q96A26,Mitochondria,"Predicted intracellular proteins, Predicted membrane proteins",,4_broad,,,0.2,membrane,True
+SPN,P16150,Plasma membrane,"CD markers, Predicted membrane proteins",,1a_lymphoid,"bone marrow, thymus",2.7947669039127053e-07,1.0,membrane,True
+MCC,P23508,Nucleoplasm,Predicted intracellular proteins,,2_restricted,ovary,,0.6,intracellular,False
+C2orf76,Q3KRA6,Endoplasmic reticulum,Predicted intracellular proteins,,2_restricted,epididymis,,0.6,intracellular,False
+SEPP1,,,,,no_hpa,,,0.3,unknown,False
+ARPC5L,Q9BPX5,,Predicted intracellular proteins,,4_broad,,,0.2,intracellular,False
+EID1,Q9Y6B2,Nucleoplasm,Predicted intracellular proteins,,4_broad,,,0.2,intracellular,False
+HIST1H2AC,,,,,no_hpa,,,0.3,unknown,False
+SNHG19,,,,,no_hpa,,,0.3,unknown,False
+GABPB1-AS1,,,,,no_hpa,,,0.3,unknown,False
+CPQ,Q9Y646,"Golgi apparatus, Vesicles","Enzymes, Plasma proteins, Predicted intracellular proteins, Predicted secreted proteins",Secreted to blood,2_restricted,thyroid gland,,0.6,secreted,True
+IFITM1,P13164,"Golgi apparatus, Plasma membrane","CD markers, Plasma proteins, Predicted membrane proteins, Transporters",,2_restricted,epididymis,,0.6,membrane,True
+RP11-598F7.3,,,,,no_hpa,,,0.3,unknown,False
+COX20,Q5RI15,Mitochondria,"Disease related genes, Essential proteins, Human disease related genes, Potential drug targets, Predicted membrane proteins, Transporters",,4_broad,,,0.2,membrane,True
+TNS3,Q68CZ2,Focal adhesion sites,Predicted intracellular proteins,,4_broad,,,0.2,intracellular,False
+LENG1,Q96BZ8,Plasma membrane,"Essential proteins, Predicted intracellular proteins",,4_broad,,,0.2,intracellular,False
+MFAP3L,O75121,Nucleoplasm,"Predicted intracellular proteins, Predicted membrane proteins",Intracellular and membrane,4_broad,,,0.2,membrane,True
+RP11-395G23.3,,,,,no_hpa,,,0.3,unknown,False
+MIR222HG,,,,,no_hpa,,,0.3,unknown,False
+TMEM173,,,,,no_hpa,,,0.3,unknown,False
+HEY2,Q9UBP5,Nuclear bodies,"Predicted intracellular proteins, Transcription factors, Transporters",,2_restricted,blood vessel,,0.6,intracellular,False
+KIT,P10721,Plasma membrane,"Cancer-related genes, CD markers, Disease related genes, Enzymes, FDA approved drug targets, Human disease related genes, Plasma proteins, Predicted intracellular proteins, Predicted membrane proteins, RAS pathway related proteins",,2_restricted,breast,,0.6,membrane,True
+POLR2J3,,Nucleoplasm,Predicted intracellular proteins,,1a_lymphoid,bone marrow,0.000310549714189,1.0,intracellular,False
+AF127936.3,,,,,no_hpa,,,0.3,unknown,False
+RPL36A,P83881,"Endoplasmic reticulum, Cytosol","Essential proteins, Metabolic proteins, Predicted intracellular proteins, Ribosomal proteins",,2_restricted,ovary,,0.6,intracellular,False
+GADD45GIP1,Q8TAE8,Mitochondria,"Predicted intracellular proteins, Ribosomal proteins",,4_broad,,,0.2,intracellular,False
+MIR4458HG,,,,,no_hpa,,,0.3,unknown,False
+ZFAS1,,,,,no_hpa,,,0.3,unknown,False
+HERC5,Q9UII4,,Predicted membrane proteins,,1b_testis_CT,testis,,1.0,membrane,True
+STARD5,Q9NSY2,Vesicles,"Metabolic proteins, Predicted intracellular proteins",,4_broad,,,0.2,intracellular,False
+C6orf48,,,,,no_hpa,,,0.3,unknown,False
+TJP1,Q07157,Cell Junctions,"Predicted intracellular proteins, Transporters",,4_broad,,,0.2,intracellular,False
+ZSCAN16-AS1,,,,,no_hpa,,,0.3,unknown,False
+KIAA1524,,,,,no_hpa,,,0.3,unknown,False
+NLGN4X,Q8N0W4,,"Disease related genes, Human disease related genes, Potential drug targets, Predicted intracellular proteins, Predicted membrane proteins, Transporters",,1a_lymphoid,"ovary, thymus",0.0242933073332313,1.0,membrane,True
+RP11-219A15.1,,,,,no_hpa,,,0.3,unknown,False
+CD1D,P15813,Endoplasmic reticulum,"Cancer-related genes, CD markers, Predicted membrane proteins",,1a_lymphoid,spleen,0.0005993521266871,1.0,membrane,True
+MX1,P20591,"Nuclear membrane, Cytosol",Predicted intracellular proteins,,2_restricted,salivary gland,,0.6,intracellular,False

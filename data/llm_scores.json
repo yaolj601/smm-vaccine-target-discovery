@@ -1,0 +1,268 @@
+{
+  "CCND1": {
+    "mm_confidence": "A",
+    "novelty_tier": "3_literature",
+    "existing_programs": "none known \u2014 no CCND1-directed vaccine, CAR-T, ADC or bispecific in myeloma that I can name with confidence; CCND1 peptide/CTL work exists preclinically (mantle cell lymphoma, breast cancer) but I am not aware of a registered clinical vaccine trial, so I am not claiming tier 1a/1b",
+    "safety_concerns": "Cyclin D1 is a normal cell-cycle regulator expressed in proliferating normal tissues (skin/adnexa \u2014 consistent with the HPA skin outlier signal \u2014 breast epithelium, endometrium, retina), so tolerance-breaking carries a risk of attack on cycling normal epithelium; it is nuclear, limiting antibody/CAR approaches to HLA-I peptide targeting only. Not a ribosomal/housekeeping-essential gene, but its physiological role means CD8 responses must be affinity-tuned and monitored for cutaneous toxicity.",
+    "rationale": "CCND1 is one of the best-established myeloma oncogenes: t(11;14) juxtaposes it to the IGH enhancer in ~15-20% of cases and it defines the CD-1/CD-2 subgroups of the UAMS/TC classification, with aberrant expression also in hyperdiploid disease \u2014 matching the very large log2FC and 31% vs 2% detection here. It is nuclear, hence inaccessible to CAR/antibody modalities, which is precisely why a peptide/HLA-I vaccine is the right modality and why the target remains clinically unclaimed in myeloma despite extensive literature. The strong predicted binder coverage (61 strong binders across 20/27 alleles) supports broad allele coverage, but expression is restricted to the t(11;14)/CCND1-high subset, so patient selection by FISH or scRNA would be required."
+  },
+  "FCRLA": {
+    "mm_confidence": "B",
+    "novelty_tier": "3_literature",
+    "existing_programs": "none known for FCRLA itself; note the paralogue FCRL5/FcRH5 is clinically validated in MM (cevostamab, BFCR4350A; anti-FcRH5 ADC DFRF4539A; FcRH5 CAR-T), but that is a different gene",
+    "safety_concerns": "Expression is B-lymphoid-restricted (germinal-centre/mantle B cells, lymph node, tonsil) rather than tumour-specific, so breaking tolerance risks on-target attack on normal B cells and possibly normal plasma cells \u2014 a B-cell-aplasia-type toxicity that is manageable but not trivial in a preventive SMM setting where patients are asymptomatic. No known expression in vital non-lymphoid tissue, and the protein is intracellular (ER/cytoplasmic chaperone-like), which favours HLA-I presentation over antibody approaches but also means surface-directed safety screens do not apply.",
+    "rationale": "FCRLA is an intracellular Fc-receptor-like family member with clear B-lineage restriction and belongs to the same family as FCRL5/FcRH5, the most clinically validated surface target in myeloma, giving a credible lineage/pathway rationale; the scRNA-seq signal (log2FC 2.27, 43% vs 16%, 96% patient coverage) and strong predicted HLA-I binding across 18/27 alleles support presentability. However, FCRLA itself is not an established myeloma antigen \u2014 most published work concerns CLL, lymphoma and normal GC B cells \u2014 so confidence is B, not A. I am not aware of any vaccine, CAR, antibody or ADC program directed at FCRLA in any indication, so tier 3 (published B-cell-malignancy/lymphoid literature, no clinical program) is the honest placement; a preventive-vaccine claim in SMM would be genuinely unclaimed."
+  },
+  "MLLT3": {
+    "mm_confidence": "B",
+    "novelty_tier": "4_uncharacterised",
+    "existing_programs": "none known",
+    "safety_concerns": "MLLT3/AF9 is required for human haematopoietic stem cell self-renewal and is expressed in normal bone marrow HSPCs \u2014 the HPA outlier call for bone marrow is a red flag for on-target marrow toxicity/aplasia. It is also broadly expressed at low level in many tissues as a component of the super elongation complex, and is a nuclear (non-surface) protein, so only peptide/HLA-I approaches are feasible and normal-tissue presentation cannot be excluded.",
+    "rationale": "MLLT3 (AF9) is a well-established oncogene as a recurrent KMT2A/MLL fusion partner in acute leukaemia and a transcription-elongation/DOT1L-complex component, which gives a credible transformation-linked rationale, but I am not aware of any defined role for MLLT3 as a myeloma antigen or driver, so confidence is B rather than A. I know of no vaccine, CAR, antibody or ADC programme targeting MLLT3 in any indication, so the honest novelty call is 4_uncharacterised; the strong HLA-I binding profile is attractive but unvalidated. The principal concern is that MLLT3 is functionally required in normal HSCs, so breaking tolerance risks marrow stem-cell attack \u2014 this would need careful epitope-level normal-tissue presentation data before advancing."
+  },
+  "MYEOV": {
+    "mm_confidence": "A",
+    "novelty_tier": "3_literature",
+    "existing_programs": "none known",
+    "safety_concerns": "HPA outlier expression in esophageal (squamous) epithelium raises a theoretical risk of mucosal autoimmunity; MYEOV is also overexpressed in pancreatic, gastric, colorectal and lung carcinomas, which is an opportunity rather than a liability but means normal-tissue baseline must be confirmed by IHC/proteomics. Nucleoplasmic localisation is fine for HLA-I presentation but precludes antibody/CAR approaches, so any program is necessarily TCR/peptide-vaccine based. Detected in only ~25% of neoplastic cells, so heterogeneous coverage and immune escape by antigen-negative subclones are concerns.",
+    "rationale": "MYEOV (Myeloma Overexpressed) was literally cloned from myeloma cells at the 11q13 locus adjacent to CCND1 and is co-amplified/overexpressed in t(11;14) and 11q13-rearranged myeloma, giving it an established, name-level myeloma pedigree consistent with the strong scRNA-seq enrichment here. It has since been characterised as an oncogenic driver (recently shown to encode a micropeptide/co-regulator) in several epithelial cancers, supporting tumor-associated antigen status. To my knowledge there is no vaccine, CAR, antibody, ADC or bispecific program against MYEOV in myeloma or any other indication, so this is published myeloma relevance without clinical development \u2014 tier 3."
+  },
+  "PRR15": {
+    "mm_confidence": "C",
+    "novelty_tier": "4_uncharacterised",
+    "existing_programs": "none known",
+    "safety_concerns": "PRR15 (proline-rich 15) is physiologically expressed in placenta/trophoblast and in intestinal epithelium; HPA outlier signal in colon and small intestine raises a real risk of mucosal autoimmunity (colitis/enteritis) if CD8 tolerance is broken, and potential reproductive/placental risk in women of child-bearing age. Vesicular localisation gives no surface antibody handle, so it is a peptide/HLA-only target with no orthogonal validation.",
+    "rationale": "PRR15 has published roles in colorectal and endometrial/trophoblast biology (proliferation, Wnt-adjacent signalling) but I am not aware of any described expression, dysfunction, or antigenicity in plasma-cell neoplasia, so its myeloma rationale rests entirely on this dataset. The differential signal is strong (log2FC 6.45, 78% patient breadth) and the HLA-I binding prediction is respectable, making it a genuinely novel hypothesis rather than a validated one. Absent any myeloma literature or clinical program, it is honestly a tier-4 uncharacterised candidate that would need protein-level and immunopeptidome confirmation plus careful gut-toxicity assessment before advancing."
+  },
+  "HGF": {
+    "mm_confidence": "A",
+    "novelty_tier": "2_clinical_other",
+    "existing_programs": "Rilotumumab (AMG 102), an anti-HGF neutralising monoclonal antibody, was evaluated in relapsed/refractory multiple myeloma (phase 1/2, alone and with bortezomib); HGF/MET axis also targeted by ficlatuzumab and MET TKIs in other tumours. No HGF peptide vaccine in MM.",
+    "safety_concerns": "HGF is a secreted paracrine growth/repair factor produced by mesenchymal and stromal cells in liver, lung, kidney, bone marrow and placenta; CTL attack on HGF-expressing normal stroma could impair tissue regeneration and wound healing, and placental expression raises reproductive-safety issues. Being a secreted rather than surface protein it is still processed for HLA-I presentation, but on-target normal-tissue presentation is a real risk and tolerance may be hard to break safely.",
+    "rationale": "HGF/c-MET is a well-documented autocrine and bone-marrow-microenvironment axis in myeloma, with elevated serum HGF an adverse prognostic marker and myeloma cells themselves aberrantly producing HGF - consistent with the 5-log2FC enrichment here in 83% of patients. Development is already past preclinical: anti-HGF antibodies (rilotumumab) reached clinical testing in MM, which validates the target biology but places it in tier 2 rather than an unclaimed position. Strong, broadly allele-covering HLA-I binder predictions make it technically attractive, but the stromal/regenerative role of HGF tempers its safety profile for a preventive SMM vaccine."
+  },
+  "DST": {
+    "mm_confidence": "C",
+    "novelty_tier": "4_uncharacterised",
+    "existing_programs": "none known",
+    "safety_concerns": "Major. DST/dystonin (BPAG1) is a large plakin-family cytoskeletal linker broadly expressed in skin (hemidesmosomes), neurons, and muscle; HPA tier 4_broad is consistent. Its isoform BP230 is the established autoantigen of bullous pemphigoid, and loss-of-function causes hereditary sensory and autonomic neuropathy type VI and epidermolysis bullosa simplex. Deliberately breaking tolerance to DST in a preventive setting for SMM carries a concrete risk of blistering skin autoimmunity and neuro/muscular toxicity \u2014 unacceptable for a prophylactic vaccine in an asymptomatic population.",
+    "rationale": "I am not aware of any established role for DST as a myeloma antigen, oncogene, or cancer-testis/oncofetal antigen; the scRNA-seq signal (24% vs 7% of cells) more likely reflects general cytoskeletal/transcriptional remodelling in neoplastic plasma cells than tumour-restricted expression. The large transcript size also inflates apparent epitope counts (1381 strong binders) without implying selectivity. No vaccine, CAR, ADC, or bispecific program targeting DST in myeloma or any other cancer is known to me, so tier 4 is the honest call \u2014 but the bullous pemphigoid autoantigen history should keep this off the shortlist on safety grounds regardless of tier."
+  },
+  "SCYL2": {
+    "mm_confidence": "D",
+    "novelty_tier": "4_uncharacterised",
+    "existing_programs": "none known",
+    "safety_concerns": "SCYL2 (CVAK104) is a ubiquitously expressed pseudokinase of the clathrin-coated vesicle/endocytic trafficking machinery (HPA tier 4_broad, no tissue restriction). Biallelic loss-of-function causes a severe neurodevelopmental/arthrogryposis-neurodegeneration syndrome, and Scyl2-null mice show neuronal degeneration, indicating an essential housekeeping role in neurons and other tissues. CTL targeting would risk on-target attack on normal cells, including CNS and any tissue presenting these highly promiscuous epitopes (269 strong binders across 23 alleles increases, not decreases, off-tumour risk).",
+    "rationale": "SCYL2 has no established or even plausible myeloma-specific role: it is not a cancer-testis, oncofetal, or plasma-cell lineage antigen and has no reported oncogenic function in plasma cell dyscrasias. Its function in clathrin-mediated endocytosis and vesicle trafficking is core cellular machinery, and the differential expression seen here is more consistent with the elevated secretory/trafficking load of malignant plasma cells than with tumour-restricted antigen biology. I classify it D (broadly essential housekeeping) - disqualifying despite good binding predictions - and 4_uncharacterised, as I am aware of no vaccine, CAR, antibody, or ADC program against SCYL2 in any indication."
+  },
+  "DNAJC1": {
+    "mm_confidence": "B",
+    "novelty_tier": "4_uncharacterised",
+    "existing_programs": "none known",
+    "safety_concerns": "DNAJC1/ERdj1/MTJ1 is a ubiquitously expressed ER membrane HSP40 co-chaperone that partners with BiP at the Sec61 translocon; it is expressed in essentially all secretory tissues, so tumour selectivity is quantitative (2-fold, padj=0.08, non-significant) rather than qualitative. The HPA 'restricted' call driven by parathyroid outlier status does not imply true tissue restriction. It is not a cancer-testis or oncofetal antigen, so tolerance-breaking carries real on-target/off-tumour risk, including attack on normal antibody-secreting plasma cells and other high-secretory epithelia. Borderline housekeeping character (ER translocation/UPR machinery) is an additional concern, though it is not scored as commonly essential in most CRISPR screens.",
+    "rationale": "DNAJC1 has no published role as a myeloma antigen or oncogene; its plausibility rests entirely on generic lineage/pathway logic - malignant plasma cells carry an enormous immunoglobulin secretory load and upregulate BiP/ERdj co-chaperones as part of the UPR, which likely explains the modest enrichment seen here. The differential expression is not statistically significant and the detection-rate difference is modest, so the computational signal is weak. Epitope breadth (103 strong binders, 22/27 alleles, 13 nM best) is attractive but does not compensate for the absence of tumour-restricted expression or any prior immunotherapeutic validation."
+  },
+  "RBMS1": {
+    "mm_confidence": "B",
+    "novelty_tier": "4_uncharacterised",
+    "existing_programs": "none known",
+    "safety_concerns": "RBMS1 is a broadly expressed cytosolic single-stranded DNA/RNA-binding protein with roles in transcription, replication and apoptosis in many normal tissues; the 'tier 2_restricted / placenta outlier' call likely reflects relative overexpression rather than true tissue restriction, so on-target/off-tumour T-cell attack on normal tissue is a real risk. It is not a classic cancer-testis antigen and has no immune-privileged expression pattern. Additionally, RBMS1 loss has been linked to MHC-I downregulation and immune evasion in other tumours, raising the possibility of antigen-presentation escape in RBMS1-low subclones.",
+    "rationale": "RBMS1 (MSSP-1) binds the c-MYC promoter/origin region and modulates MYC-driven proliferation and apoptosis, which gives it a credible mechanistic link to myeloma biology given the centrality of MYC translocations and deregulation in the MGUS/SMM-to-MM transition, but it is not itself an established myeloma antigen. I am not aware of any vaccine, CAR-T, antibody or ADC program targeting RBMS1 in myeloma or any other indication, nor of dedicated myeloma literature on it, so the honest tier is 4. The scRNA-seq signal (log2FC 1.59, 96% patient coverage) and rich HLA-I epitope landscape are encouraging, but the modest detection fraction (19%) and broad somatic expression temper enthusiasm as a preventive SMM target."
+  },
+  "TUBB": {
+    "mm_confidence": "D",
+    "novelty_tier": "4_uncharacterised",
+    "existing_programs": "none known",
+    "safety_concerns": "TUBB (beta-tubulin class I) is a core cytoskeletal housekeeping protein expressed ubiquitously in every nucleated cell; it is essential for mitosis, intracellular transport and cell shape. Breaking tolerance would risk on-target attack on all proliferating and normal tissues, and the high apparent expression in neoplastic cells simply reflects proliferation/transcriptional amplification rather than tumour specificity. The 'lymphoid/thymus outlier' signal is an artefact of proliferative tissue, not restriction.",
+    "rationale": "TUBB is a broadly essential housekeeping gene rather than a myeloma-specific or cancer-testis antigen; its upregulation in neoplastic plasma cells is a generic correlate of proliferation. Tubulin is a validated drug target in myeloma only pharmacologically (e.g. microtubule-binding payloads such as MMAF in belantamab mafodotin), which is chemical inhibition, not immunological targeting, so no vaccine or immunotherapy precedent exists. Strong predicted HLA-I binding does not offset the disqualifying safety and specificity profile, so this should be dropped as category D."
+  },
+  "POU2F2": {
+    "mm_confidence": "B",
+    "novelty_tier": "3_literature",
+    "existing_programs": "none known",
+    "safety_concerns": "POU2F2/OCT2 is a master B-lineage transcription factor expressed across normal B cells, germinal-centre cells and normal plasma cells (HPA outlier in lymph node/tonsil), so CTL responses risk on-target attack on the normal humoral compartment - B-cell aplasia and hypogammaglobulinaemia. It is also expressed at lower levels in some neural and myeloid contexts, and the modest 44% vs 23% neoplastic/normal differential gives a narrow therapeutic window for breaking tolerance in a preventive (SMM) setting.",
+    "rationale": "POU2F2 is a well-documented B-cell/lymphoma transcription factor (OCT2, partner of OBF1/POU2AF1, a survival dependency in DLBCL) with clear lineage rationale for plasma-cell neoplasms, but it is not an established myeloma oncogene or a cancer-testis/oncofetal antigen, so confidence is B rather than A. I am not aware of any vaccine, CAR-T, antibody, ADC or bispecific programme targeting POU2F2 in myeloma or any other indication; its relevance rests on published B-cell malignancy literature, hence tier 3. As a shared lineage self-antigen rather than a tumour-restricted one, it is a weaker preventive-vaccine candidate than the HLA-I binding data alone would suggest."
+  },
+  "DKK1": {
+    "mm_confidence": "A",
+    "novelty_tier": "1b_vaccine_in_mm",
+    "existing_programs": "pUMVC3-hDKK1 DNA vaccine in smouldering myeloma (Mayo Clinic, NCT03591614); also anti-DKK1 mAb BHQ880 (Novartis) in MM phase 1b/2 trials, and DKN-01 in other solid tumours",
+    "safety_concerns": "DKK1 is a Wnt pathway antagonist with roles in bone remodelling, placental/embryonic development and limited adult expression (placenta, cervix, prostate, testis); systemic inhibition affects osteoblast/Wnt biology, but T-cell targeting of a secreted protein depends on HLA-I presentation by the tumour, and adult normal-tissue expression is low. No risk of on-target attack on normal plasma cells.",
+    "rationale": "DKK1 is one of the best-characterised myeloma antigens: overexpressed by malignant plasma cells, mechanistically responsible for osteolytic bone disease via Wnt inhibition, and correlated with disease burden. The scRNA-seq signal (log2FC 2.55, 83% patient coverage, restricted normal expression) is consistent with this. However, it is already claimed in myeloma vaccine space \u2014 a DKK1 DNA vaccine has been trialled specifically in smouldering myeloma \u2014 plus antibody programs (BHQ880), making it validated but crowded for a novel SMM vaccine."
+  },
+  "IGF1": {
+    "mm_confidence": "A",
+    "novelty_tier": "3_literature",
+    "existing_programs": "none known for IGF1 itself as a vaccine target; the axis has been drugged in MM via the receptor (anti-IGF-1R antibodies AVE1642 and figitumumab/CP-751,871 in phase I myeloma studies) and the ligand neutralised in solid tumours (xentuzumab/BI 836845), but no IGF1-directed vaccine or MM ligand-targeted program exists",
+    "safety_concerns": "Severe. IGF1 is a secreted systemic hormone (largely hepatic/GH-driven) essential for growth, glucose and bone metabolism; it is broadly expressed in stroma, liver, muscle, adipose and bone. Breaking tolerance would risk endocrine/metabolic autoimmunity and off-tumour attack on IGF1-producing normal tissue, and much of the myeloma-associated IGF-1 is microenvironment- rather than tumour-derived, so a cytotoxic T-cell response would poorly discriminate. Also a secreted protein, so surface HLA-I presentation on the plasma cell is not guaranteed to be tumour-selective.",
+    "rationale": "IGF-1/IGF-1R signalling is a canonical myeloma survival and proliferation pathway with a long clinical drugging history, so biological confidence is high (A). However, development to date is receptor- or ligand-neutralisation based, not vaccine based, and no IGF1 peptide vaccine exists in myeloma, placing it at tier 3. Despite decent scRNA-seq differential expression and strong predicted binders, the systemic-hormone biology and lack of tumour restriction make it a poor tolerance-breaking vaccine candidate and I would deprioritise it on safety grounds."
+  },
+  "TBXAS1": {
+    "mm_confidence": "C",
+    "novelty_tier": "4_uncharacterised",
+    "existing_programs": "none known",
+    "safety_concerns": "TBXAS1 (thromboxane A synthase, CYP5A1) is constitutively and highly expressed in platelets/megakaryocytes, monocytes, macrophages and dendritic cells, and in liver and kidney; it is the terminal enzyme of thromboxane A2 synthesis. Breaking tolerance risks immune attack on megakaryocytes/platelets (thrombocytopenia, Ghosal-type haematodiaphyseal phenotypes are loss-of-function), and on monocyte/macrophage compartments. The 'lymphoid/spleen outlier' signal most likely reflects splenic myeloid content rather than plasma-cell restriction, and the modest 27% vs 10% detection in a myeloid-lineage gene raises concern for ambient/contaminating monocyte transcripts in the scRNA-seq rather than true neoplastic plasma-cell expression.",
+    "rationale": "TBXAS1 has no established role as a myeloma tumour antigen or oncogene; the arachidonic acid/eicosanoid axis has general tumour-microenvironment relevance but there is no lineage or cancer-testis rationale for plasma cells. No vaccine, CAR, antibody, ADC or bispecific program targeting TBXAS1 exists in myeloma or any other cancer to my knowledge (thromboxane synthase is targeted only pharmacologically, e.g. ozagrel/picotamide, for cardiovascular indications). Despite excellent predicted HLA-I binding, the broad myeloid/platelet expression makes this a poor and potentially hazardous preventive vaccine target in an asymptomatic SMM population."
+  },
+  "P2RX1": {
+    "mm_confidence": "C",
+    "novelty_tier": "4_uncharacterised",
+    "existing_programs": "none known",
+    "safety_concerns": "P2RX1 (P2X1 ATP-gated cation channel) is highly expressed on platelets, vascular/visceral smooth muscle and neutrophils; the HPA blood-vessel outlier signal is consistent with this. CTL attack on platelets or vascular smooth muscle would risk thrombocytopenia, bleeding/thrombotic dysregulation and vasculopathy, and neutrophil targeting risks impaired innate immunity. It is a functional ion channel in healthy tissue, not a tumour-restricted antigen, so the therapeutic window looks narrow despite the 2_restricted tier call.",
+    "rationale": "P2RX1 has no established role in plasma-cell biology or myeloma pathogenesis; the purinergic family member with cancer/myeloma-adjacent literature is P2X7 (bone disease, inflammasome), not P2X1, so even the family rationale is thin. The scRNA-seq signal (log2FC 1.89, 28% vs 11%) is statistically solid but comes from a minority of neoplastic cells and may reflect contaminating platelet/ambient transcripts, a well-known artefact in bone-marrow droplet data. I know of no vaccine, CAR, antibody or ADC programme against P2RX1 in any indication, so 4_uncharacterised is the honest tier; combined with the platelet/vascular safety liability I would not advance it."
+  },
+  "FAM162A": {
+    "mm_confidence": "C",
+    "novelty_tier": "4_uncharacterised",
+    "existing_programs": "none known",
+    "safety_concerns": "Ubiquitously expressed hypoxia-inducible mitochondrial protein (HPA tier 4_broad, no tissue restriction); it is a HIF-1\u03b1 target induced in any hypoxic normal tissue (brain, heart, kidney, ischaemic tissue), so CTL responses could cause off-tumour damage at hypoxic/ischaemic sites. Not a plasma-cell-restricted antigen, so no lineage-based safety argument either. Mitochondrial/cytosolic localisation is compatible with HLA-I presentation but offers no antibody/CAR fallback.",
+    "rationale": "FAM162A (E2IG5/HGTD-P) is a HIF-1\u03b1-inducible, pro-apoptotic mitochondrial protein with no published role as a myeloma antigen, oncogene, or cancer-testis/oncofetal gene; the modest scRNA-seq enrichment (log2FC 0.89, 48% vs 20%) most likely reflects the hypoxic bone-marrow niche and higher metabolic demand of neoplastic plasma cells rather than tumour-specific expression. It is not a classical housekeeping/essential gene, so I would not disqualify it outright with a D, but it has no myeloma-specific rationale (C). I am aware of no vaccine, CAR, antibody, ADC, or bispecific programme against FAM162A in any indication, so 4_uncharacterised is the honest tier; the broad normal-tissue expression makes it a poor tolerance-breaking target regardless of its strong predicted HLA-I binding."
+  },
+  "SPN": {
+    "mm_confidence": "B",
+    "novelty_tier": "3_literature",
+    "existing_programs": "none known in myeloma; anti-CD43 antibody AT1413 has been explored in AML (not myeloma, not a vaccine), and CD43 CAR constructs remain preclinical",
+    "safety_concerns": "SPN/CD43 (sialophorin, leukosialin) is a pan-hematopoietic surface sialomucin expressed on essentially all leukocytes - T cells, monocytes/granulocytes, NK cells, HSPCs and platelets - so HLA-I-directed CTL responses would risk broad myeloablation/immunosuppression rather than plasma-cell-restricted killing; the HPA 'lymphoid tier 1a' call reflects immune-compartment restriction, not tumour restriction. It is also functionally important in leukocyte adhesion/trafficking and T-cell costimulation, so on-target toxicity on the vaccine-induced effector cells themselves is conceivable.",
+    "rationale": "CD43 is aberrantly expressed on neoplastic plasma cells and is used diagnostically in plasma cell neoplasms, giving a genuine lineage/flow-cytometric rationale, but it is not an established myeloma driver or cancer-testis antigen, hence confidence B rather than A. Published myeloma relevance exists without any myeloma-directed clinical program, placing it at tier 3; antibody work (AT1413 in AML) is in another indication and is not a vaccine, so 1a is not justified. The dominant limitation is safety - broad normal leukocyte expression makes it a poor choice for deliberately breaking tolerance in a preventive SMM setting."
+  },
+  "MCC": {
+    "mm_confidence": "C",
+    "novelty_tier": "4_uncharacterised",
+    "existing_programs": "none known",
+    "safety_concerns": "MCC is a widely expressed tumour-suppressor/Wnt-pathway regulator with documented expression in colonic epithelium, neural tissue and other normal organs; the HPA 'restricted' call driven by an ovary outlier does not imply tumour specificity. Targeting it risks on-target toxicity in normal epithelium/CNS, and as a nucleoplasmic protein there is no surface validation. Only 10% of neoplastic cells express it, so immune escape by antigen-negative subclones is likely.",
+    "rationale": "MCC (mutated in colorectal cancer) is a tumour suppressor/negative regulator of beta-catenin signalling with no established role as a myeloma antigen, no cancer-testis or oncofetal character, and its usual cancer biology is loss-of-function rather than overexpression, which argues against it being a tumour-selective antigen. I am aware of no vaccine, CAR, antibody, ADC or bispecific programme against MCC in myeloma or any other indication. The scRNA-seq differential and strong predicted HLA-I binding are encouraging on paper, but with 10% neoplastic positivity and broad normal expression the biological case is weak; classify C/tier 4 and deprioritise unless protein-level myeloma-restricted expression is demonstrated."
+  },
+  "C2orf76": {
+    "mm_confidence": "C",
+    "novelty_tier": "4_uncharacterised",
+    "existing_programs": "none known",
+    "safety_concerns": "Uncharacterised ORF with no defined function, so essentiality cannot be excluded; HPA tier 2_restricted with epididymis outlier expression suggests relative restriction but low-level broad transcription is likely, and the modest 19% vs 7% detection difference means normal plasma cells also express it, raising risk of on-target attack on healthy plasma cells/humoral immunity.",
+    "rationale": "C2orf76 is an uncharacterised open reading frame with no published role in multiple myeloma, plasma cell biology, or oncogenesis that I am aware of, and it is not a recognised cancer-testis or oncofetal antigen despite the epididymis outlier signal. The differential expression is statistically significant but modest in magnitude and fraction of cells, so the evidence is driven entirely by the pipeline rather than prior biology. I find no vaccine, CAR-T, antibody, ADC, or bispecific program against it in any indication, so 4_uncharacterised is the honest tier."
+  },
+  "ARPC5L": {
+    "mm_confidence": "D",
+    "novelty_tier": "4_uncharacterised",
+    "existing_programs": "none known",
+    "safety_concerns": "ARPC5L is a subunit (paralogue of ARPC5) of the Arp2/3 actin-nucleating complex, a core cytoskeletal housekeeping machine expressed in essentially all nucleated cells (HPA tier 4_broad, no tissue outlier). Breaking tolerance risks on-target attack on haematopoietic and other normal tissues, including immune cells that depend on Arp2/3 for motility and immune synapse formation; no tumour-restricted expression to provide a therapeutic window.",
+    "rationale": "The modest upregulation (log2FC ~1, 59% vs 30% detection) most likely reflects the generally higher transcriptional/cytoskeletal activity of proliferating neoplastic plasma cells rather than a myeloma-specific antigenic program. ARPC5L is not a cancer-testis, oncofetal, or lineage-restricted antigen and has no established oncogenic role in myeloma; its paralogue ARPC5 has only generic cancer-migration literature. Despite abundant predicted HLA-I binders, its broadly essential housekeeping function makes it disqualifying (D) for a preventive SMM vaccine."
+  },
+  "EID1": {
+    "mm_confidence": "C",
+    "novelty_tier": "4_uncharacterised",
+    "existing_programs": "none known",
+    "safety_concerns": "EID1 (CRI1/EP300-interacting inhibitor of differentiation 1) is a ubiquitously expressed nuclear transcriptional co-regulator (p300/CBP HAT inhibitor, RB-interacting); HPA tier 4_broad with no tissue restriction, so peptide-directed T cells would face widespread normal-tissue presentation risk. Its role in differentiation/cell-cycle control in normal tissues (including muscle and neural lineages) makes on-target off-tumour toxicity a real concern, and a 0.57 log2FC with 53% baseline expression in normal plasma cells gives a very narrow therapeutic window.",
+    "rationale": "EID1 has no established role as a myeloma-associated, cancer-testis, or oncofetal antigen; it is a broadly expressed nuclear co-repressor whose modest upregulation here most plausibly reflects general transcriptional/proliferative state rather than tumour-specific biology. I stop short of 'D' because it is not a core housekeeping/metabolic enzyme, but the breadth of normal expression makes it a poor tolerance-breaking target. I am not aware of any vaccine, CAR, antibody, ADC or bispecific programme against EID1 in myeloma or any other indication, so 4_uncharacterised is the honest tier."
+  },
+  "CPQ": {
+    "mm_confidence": "C",
+    "novelty_tier": "4_uncharacterised",
+    "existing_programs": "none known",
+    "safety_concerns": "CPQ (plasma glutamate carboxypeptidase / carboxypeptidase Q) is a secreted/Golgi-vesicular metalloenzyme expressed in many normal tissues (liver, brain, kidney) with a defined physiological role in thyroid hormone precursor and peptide catabolism; HPA outlier signal is in thyroid, raising a real risk of on-target thyroid toxicity or endocrine autoimmunity. Its Golgi/secretory localisation does not preclude HLA-I presentation, but the lack of tumour restriction (19% vs 11% of cells) means low therapeutic index and marginal antigen density.",
+    "rationale": "CPQ is a housekeeping-adjacent hydrolase with no published myeloma biology, no cancer-testis or oncofetal character, and no clinical or preclinical immunotherapy program in any indication that I am aware of. The differential expression is modest (log2FC 1.13, detected in <20% of neoplastic cells) and is more consistent with secretory/Golgi expansion in plasma cells than with tumour-specific antigen biology. Predicted epitope breadth is good, but epitope prediction alone cannot rescue a target with no myeloma rationale and a thyroid-associated normal-tissue liability."
+  },
+  "IFITM1": {
+    "mm_confidence": "B",
+    "novelty_tier": "3_literature",
+    "existing_programs": "none known",
+    "safety_concerns": "IFITM1 is a type-I/II interferon-inducible gene expressed broadly across lymphocytes, endothelium, epithelium and many normal tissues; baseline levels are modest but inflammation or IFN exposure can drive widespread upregulation, creating a real risk of on-target/off-tumour attack on normal immune and endothelial cells. It is also part of the CD19/CD21/CD81 signalling complex in B cells, so normal B/plasma-cell compartment damage is plausible. HPA tier 2 restriction (epididymis outlier) likely reflects low basal expression rather than true tumour restriction.",
+    "rationale": "IFITM1 (Leu-13/9-27) is an interferon-stimulated transmembrane protein with documented pro-invasive/pro-proliferative roles in several solid tumours and a B-lineage co-receptor complex association, giving a plausible but not established myeloma rationale; the scRNA-seq signal may partly reflect an interferon-response programme rather than a tumour-intrinsic antigen. I am not aware of any vaccine, CAR-T, ADC or bispecific programme targeting IFITM1 in myeloma or any other indication, so it sits at the literature tier. Good predicted HLA-I coverage (56 strong binders, best 13 nM) makes it technically attractive, but the inducible, broadly shared expression pattern is the dominant concern for a preventive SMM vaccine."
+  },
+  "COX20": {
+    "mm_confidence": "D",
+    "novelty_tier": "4_uncharacterised",
+    "existing_programs": "none known",
+    "safety_concerns": "COX20 (FAM36A) is a ubiquitously expressed mitochondrial inner-membrane chaperone required for assembly of cytochrome c oxidase (complex IV, MT-CO2 maturation); biallelic loss causes mitochondrial ataxia/neuropathy in humans. HPA tier 4_broad with mitochondrial localisation in all tissues means CTL targeting would risk on-target damage to high-OXPHOS tissues (heart, neurons, muscle) with no tumour selectivity.",
+    "rationale": "COX20 is core mitochondrial respiratory-chain assembly machinery, i.e. a broadly essential housekeeping gene, not a myeloma-specific, cancer-testis, or oncofetal antigen; the modest log2FC of 0.76 most plausibly reflects the generally elevated OXPHOS/mitochondrial biogenesis and higher transcriptional output of neoplastic plasma cells rather than antigen-level tumour restriction. No vaccine, CAR, ADC, or bispecific program targets COX20 in myeloma or any other indication, and I am not aware of any published myeloma-specific role. The D confidence call is disqualifying and should drop it from the shortlist irrespective of its strong predicted HLA-I binding."
+  },
+  "TNS3": {
+    "mm_confidence": "C",
+    "novelty_tier": "4_uncharacterised",
+    "existing_programs": "none known",
+    "safety_concerns": "TNS3 is a broadly expressed cytoskeletal/focal-adhesion adaptor (HPA tier 4_broad, no normal-tissue restriction), with roles in cell migration and integrin signalling in epithelium, kidney, lung and vasculature. Breaking tolerance risks on-target attack on many normal tissues; it is neither cancer-testis nor oncofetal, and there is no plasma-cell lineage restriction to limit damage.",
+    "rationale": "Tensin-3 is a focal-adhesion scaffold linking integrins to the actin cytoskeleton, with scattered cancer literature (migration/invasion, context-dependent tumour-suppressor or promoter roles) but no established myeloma biology that I am aware of, and no reported vaccine, CAR, antibody or ADC program in any indication. The scRNA-seq signal is statistically significant but modest in penetrance (11% vs 4% of cells), which is weak evidence for uniform surface-independent antigen presentation across the neoplastic clone. High predicted HLA-I epitope breadth does not compensate for a broadly expressed, non-restricted self-protein; I would not shortlist this without orthogonal protein-level and immunopeptidome evidence."
+  },
+  "LENG1": {
+    "mm_confidence": "C",
+    "novelty_tier": "4_uncharacterised",
+    "existing_programs": "none known",
+    "safety_concerns": "HPA tier 4_broad normal-tissue expression with no outlier tissue restriction, so peptide-specific T cells could engage normal tissues; the gene sits in the leukocyte receptor complex (19q13.4) and is expressed across haematopoietic lineages, raising risk of on-target attack on normal B/plasma and myeloid cells. Low detection fraction (23% of neoplastic cells) also implies heterogeneous coverage and antigen-escape risk.",
+    "rationale": "LENG1 (leukocyte receptor cluster member 1) is a poorly characterised gene in the 19q13.4 LRC region with no established role in plasma cell biology, myeloma pathogenesis, or as a cancer-testis/oncofetal antigen; its modest enrichment here is statistically real but biologically unexplained. I am not aware of any vaccine, CAR-T, bispecific, ADC or antibody program targeting LENG1 in myeloma or any other indication, so the honest tier is uncharacterised. The combination of broad normal-tissue expression and absent disease rationale makes it a weak preventive-vaccine candidate despite favourable HLA-I binding predictions."
+  },
+  "MFAP3L": {
+    "mm_confidence": "C",
+    "novelty_tier": "4_uncharacterised",
+    "existing_programs": "none known",
+    "safety_concerns": "HPA tier 4_broad normal-tissue expression with no outlier-restricted organ; MFAP3L is expressed in colon, brain and other normal tissues, so breaking tolerance risks on-target/off-tumour autoimmunity. Nucleoplasmic localisation is acceptable for HLA-I presentation but precludes antibody/CAR approaches, and the low expressing fraction (8% of neoplastic cells) implies poor antigen coverage and immune-escape risk.",
+    "rationale": "MFAP3L (microfibril-associated protein 3-like) has reported roles in colorectal cancer proliferation/metastasis via EGFR/ERK signalling, but I am aware of no published myeloma or plasma-cell biology for this gene, and it is neither a cancer-testis nor an oncofetal antigen. The scRNA-seq signal is statistically strong but comes from a small minority of neoplastic cells against a broadly expressed normal-tissue background, which is a weak basis for a preventive SMM vaccine. No vaccine, CAR, ADC or bispecific program targeting MFAP3L exists to my knowledge in myeloma or any other indication, so the honest tier is 4_uncharacterised."
+  },
+  "HEY2": {
+    "mm_confidence": "B",
+    "novelty_tier": "4_uncharacterised",
+    "existing_programs": "none known",
+    "safety_concerns": "HEY2 is a Notch effector transcription factor with important expression in vascular endothelium and cardiomyocytes (HPA outlier in blood vessel; Hey1/Hey2 are essential for cardiovascular development). HLA-I presentation of an endothelial-expressed antigen raises a theoretical risk of vasculitis/endothelial injury, and cardiac expression is a further concern. Nuclear-body localisation means it is inaccessible to antibodies but fine for peptide/HLA-I approaches. Expression in only 11% of neoplastic cells suggests subclonal coverage and possible antigen escape.",
+    "rationale": "HEY2 is a bHLH transcriptional repressor downstream of Notch; Notch pathway activation (JAG1/JAG2, HES/HEY targets) is well documented in myeloma bone-marrow niche crosstalk and drug resistance, giving a plausible pathway-level rationale, but HEY2 itself is not an established myeloma antigen nor a cancer-testis/oncofetal antigen. I am not aware of any vaccine, CAR, antibody, ADC or bispecific programme targeting HEY2 in myeloma or any other cancer, so I score it as uncharacterised rather than inventing a programme. The strong differential expression and broad HLA-I epitope coverage are attractive, but the endothelial/cardiac normal-tissue expression tempers its safety profile."
+  },
+  "KIT": {
+    "mm_confidence": "A",
+    "novelty_tier": "3_literature",
+    "existing_programs": "none known as an antigen-directed agent in myeloma; KIT is targeted pharmacologically by TKIs (imatinib/dasatinib, tested in MM without antigen-specific rationale) and anti-CD117 antibodies (e.g. briquilimab/JSP191) and CD117 CAR-T are in development for AML/HSC conditioning, not myeloma",
+    "safety_concerns": "High. KIT/CD117 is expressed on hematopoietic stem and progenitor cells, mast cells, melanocytes, interstitial cells of Cajal, and germ cells; breaking tolerance risks marrow aplasia, mast-cell depletion, vitiligo, GI dysmotility and infertility. HPA outlier signal in breast adds further normal-tissue exposure. Only ~5% of neoplastic cells express it, so antigen-negative escape is likely.",
+    "rationale": "CD117/KIT is a well-established aberrant surface marker on neoplastic plasma cells in roughly a third of MM/SMM cases and a bona fide oncogene (gain-of-function in GIST, mastocytosis, AML), so myeloma relevance is solid and the gene is heavily documented in MM flow-cytometry and prognostic literature. However, no antigen-directed vaccine, CAR, ADC or bispecific program exists in myeloma specifically, placing it at literature tier. The major liability is that KIT is not tumour-restricted \u2014 its expression on hematopoietic stem cells and mast cells makes deliberate tolerance-breaking by a preventive vaccine in an asymptomatic SMM population hard to justify."
+  },
+  "RPL36A": {
+    "mm_confidence": "D",
+    "novelty_tier": "4_uncharacterised",
+    "existing_programs": "none known",
+    "safety_concerns": "RPL36A is a core 60S ribosomal subunit protein \u2014 an essential housekeeping gene expressed ubiquitously in all nucleated cells. Breaking tolerance would risk broad on-target/off-tumour autoimmunity; the modest log2FC (and non-significant padj=0.06) reflects the generally elevated translational/ribosome biogenesis program of secretory plasma cells rather than tumour-specific expression.",
+    "rationale": "RPL36A (L36a/RPL44) is a structural ribosomal protein, the archetypal case for the disqualifying D category regardless of favourable epitope predictions (20 strong binders, 21 nM best). Ribosomal protein upregulation is a ubiquitous correlate of high-output plasma cells and proliferating tumour cells and confers no myeloma specificity; the HPA 'ovary outlier' signal is not a credible restriction argument for a gene transcribed in every tissue. No vaccine, CAR, ADC or bispecific program exists or should exist against this target."
+  },
+  "GADD45GIP1": {
+    "mm_confidence": "D",
+    "novelty_tier": "4_uncharacterised",
+    "existing_programs": "none known",
+    "safety_concerns": "CRIF1/GADD45GIP1 is a ubiquitously expressed mitochondrial large-ribosomal-subunit-associated protein essential for mitoribosome assembly and OXPHOS complex synthesis; it is also a co-regulator of cell-cycle/p21 and nuclear receptor signalling. Broad normal-tissue expression (HPA tier 4_broad) and essentiality mean T cells raised against it would risk on-target toxicity in heart, muscle, liver and haematopoietic tissue.",
+    "rationale": "This is a core housekeeping gene of the mitochondrial translation machinery, not a cancer-testis or oncofetal antigen, and there is no established myeloma-specific role. The scRNA-seq signal is weak and non-significant (log2FC 0.24, padj 0.29), with the detection-rate difference most plausibly reflecting the higher transcriptional/secretory output of neoplastic plasma cells rather than tumour-restricted expression. Good predicted HLA-I binding does not rescue a broadly essential mitochondrial protein; it should be dropped as D."
+  },
+  "HERC5": {
+    "mm_confidence": "C",
+    "novelty_tier": "4_uncharacterised",
+    "existing_programs": "none known",
+    "safety_concerns": "HERC5 is a type-I interferon-stimulated gene and the principal E3 ligase for ISG15 conjugation; it is broadly inducible in endothelium, monocytes, lymphocytes and epithelium during any viral infection or inflammatory episode. The HPA 'testis outlier' call reflects low baseline expression rather than true cancer-testis restriction, so T cells raised against HERC5 epitopes could attack widespread IFN-activated normal tissue, and the modest 16% vs 6% detection rate suggests the signal is an interferon-response artefact rather than tumor-restricted expression. Innate antiviral immunity could also be impaired.",
+    "rationale": "HERC5 has no established role as a myeloma oncogene or tumor-associated antigen; its differential expression here is most plausibly explained by an interferon-stimulated gene signature that varies with sample handling and inflammatory state rather than by neoplastic plasma-cell biology. I am not aware of any vaccine, CAR, antibody or ADC program targeting HERC5 in myeloma or any other cancer, so 4_uncharacterised is the honest tier. Despite excellent predicted HLA-I binding breadth, the combination of weak biological rationale and IFN-inducible pan-tissue expression makes this a poor preventive-vaccine target for SMM."
+  },
+  "STARD5": {
+    "mm_confidence": "C",
+    "novelty_tier": "4_uncharacterised",
+    "existing_programs": "none known",
+    "safety_concerns": "HPA tier 4_broad: STARD5 is expressed in liver, kidney, and myeloid/macrophage populations as a cytosolic sterol/bile-acid transporter, so it is not tumour-restricted and targeting it risks on-target off-tumour injury to hepatic and renal tissue. It is not a cancer-testis or oncofetal antigen, so tolerance-breaking would be against a self antigen with no privileged-site protection. Only 16% of neoplastic cells are positive, so antigen-negative escape would also be likely.",
+    "rationale": "STARD5 is an ER-stress/UPR-inducible START-domain lipid transfer protein; the only plausible myeloma connection is indirect, via the constitutive UPR and lipid handling of secretory plasma cells, and there is no published literature establishing it as a myeloma antigen, oncogene, or dependency. The modest log2FC (~1.0) on a low detection fraction likely reflects secretory/ER-stress biology shared with normal plasma cells rather than tumour-specific expression. Epitope predictions are favourable, but favourable binding on a broadly expressed, non-validated gene does not justify a preventive vaccine in an asymptomatic SMM population."
+  },
+  "TJP1": {
+    "mm_confidence": "B",
+    "novelty_tier": "3_literature",
+    "existing_programs": "none known",
+    "safety_concerns": "TJP1/ZO-1 is a ubiquitously expressed tight-junction scaffold protein (HPA tier 4_broad) found in essentially all epithelia, endothelium including the blood-brain and gut barriers, and cardiac intercalated discs. Cytotoxic T-cell attack on ZO-1-presenting normal tissue risks barrier disruption, colitis-like toxicity and cardiac/neurovascular injury; there is no tumour-restricted or cancer-testis character to exploit, so tolerance-breaking is unsafe despite the strong predicted epitope repertoire.",
+    "rationale": "TJP1 has genuine published myeloma relevance - low TJP1 expression drives proteasome-inhibitor resistance via EGFR/JAK1/STAT3 signalling (Zhang et al., Cancer Cell 2016), and it has been studied as a biomarker of bortezomib/carfilzomib sensitivity - which supports a 'B' pathway-level confidence rather than 'A', since it is a resistance modifier, not a tumour antigen. No vaccine, CAR, antibody or ADC program targets TJP1 in myeloma or any other indication, placing it at tier 3. The modest fraction of expressing cells (11% vs 3%) and complete lack of normal-tissue restriction make it a poor and potentially hazardous HLA-I vaccine target despite the favourable differential-expression statistics."
+  },
+  "NLGN4X": {
+    "mm_confidence": "B",
+    "novelty_tier": "4_uncharacterised",
+    "existing_programs": "none known",
+    "safety_concerns": "NLGN4X is a neuronal synaptic adhesion molecule with substantial CNS (neuronal/synaptic) expression and is an autism-spectrum disease gene; breaking tolerance risks CNS autoimmunity, which is a serious concern for a preventive vaccine in an asymptomatic SMM population. HPA outlier signal in ovary and thymus adds gonadal/thymic-stromal risk, and high sequence identity with NLGN4Y (and other neuroligins) raises cross-reactivity concerns. Only 7% of neoplastic cells are positive, so antigen-negative escape is likely even if tolerance is broken.",
+    "rationale": "NLGN4X itself has no established role in myeloma biology, but its Y-chromosome paralogue NLGN4Y is a well-characterised H-Y minor histocompatibility antigen that drives graft-versus-myeloma/leukaemia T-cell responses after sex-mismatched allogeneic HSCT, which gives a genuine family-member immunological rationale (hence B rather than C). I am not aware of any vaccine, CAR, antibody or ADC programme directed at NLGN4X in myeloma or any other indication, so the honest novelty call is 4_uncharacterised. The computational profile is attractive (large log2FC, zero normal plasma-cell expression, dense HLA-I binder coverage), but the low fraction of expressing cells and the neuronal expression make this a lower-priority candidate that would need protein-level confirmation on myeloma cells and careful CNS cross-reactivity screening."
+  },
+  "CD1D": {
+    "mm_confidence": "B",
+    "novelty_tier": "3_literature",
+    "existing_programs": "none known as a CD1D-directed peptide vaccine or CD1D-targeting agent. Note: alpha-galactosylceramide (KRN7000)-loaded dendritic cell / iNKT trials in MGUS-SMM-MM (e.g., Richter et al., Blood 2013; Chang/Dhodapkar studies) exploit CD1d as the lipid-presenting molecule, not as the targeted tumor antigen, so this does not constitute a CD1D-directed clinical program.",
+    "safety_concerns": "High. CD1D is a non-polymorphic lipid-presenting MHC-I-like molecule constitutively expressed on B cells, monocytes, dendritic cells, thymocytes, marginal-zone splenocytes and intestinal/hepatic epithelium - the HPA spleen outlier signal reflects normal lymphoid expression, not tumor restriction. HLA-I-restricted T cells against CD1D peptides would attack normal antigen-presenting cells and gut epithelium, and would specifically destroy the CD1d+ APC compartment that supports iNKT-cell antitumor immunity - a self-defeating outcome for an immunoprevention vaccine. It is also not a cancer-testis or oncofetal antigen, so tolerance-breaking carries genuine autoimmune risk.",
+    "rationale": "CD1d has a real, well-published myeloma biology - it is expressed on malignant plasma cells in MGUS/early myeloma and is progressively lost with disease progression as a immune-escape mechanism, and it is the restriction element for iNKT-based immunotherapy in SMM. However, it is an immune-lineage surface molecule rather than a tumor-associated or driver antigen, and the scRNA-seq signal (21% vs 4% of cells) plus the lymphoid/spleen normal-tissue profile is consistent with shared lineage expression rather than neoplastic restriction. Strong predicted HLA-I binding does not offset the on-target/off-tumor risk to B cells, monocytes, DCs and gut epithelium; I would rank this below true cancer-testis candidates for a preventive SMM vaccine."
+  },
+  "MX1": {
+    "mm_confidence": "C",
+    "novelty_tier": "3_literature",
+    "existing_programs": "none known - no vaccine, CAR, antibody or ADC program against MX1 in myeloma or any other indication that I am aware of; MX1 appears in myeloma literature only as a component of type I interferon-response gene signatures, not as a therapeutic target",
+    "safety_concerns": "MX1 (MxA) is a canonical interferon-stimulated gene, not a tumour-restricted antigen: it is inducible to high levels in essentially every nucleated cell type during viral infection, autoimmunity (it is a standard interferon-signature biomarker in lupus/dermatomyositis) or IFN therapy. A cytotoxic T-cell response would therefore risk broad on-target/off-tumour attack on any IFN-exposed tissue, and the observed signal could be a bystander inflammatory-milieu effect rather than tumour-intrinsic. The HPA salivary-gland outlier adds a sicca/autoimmune-exocrinopathy concern.",
+    "rationale": "The differential expression (0.79 log2FC, 27% vs 9% of cells) is modest and is most parsimoniously explained by a type I interferon response signature in the tumour microenvironment rather than by a plasma-cell-intrinsic oncogenic programme; MX1 is not a cancer-testis, oncofetal, or lineage antigen and has no established driver role in MGUS/SMM/MM. Its strong predicted HLA-I binding (138 strong binders) does not compensate for the fact that the antigen is conditionally expressed in all tissues under interferon. I would not shortlist MX1 for a preventive SMM vaccine; the tolerance-breaking risk is inflammatory/autoimmune rather than tumour-selective."
+  }
+}
